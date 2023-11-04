@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!------------ Course ------------>
+        
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>We Offer many type of Courses but this are Most Valuable.</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Web-Development</h3>
+                    <p>A web design is a social document that details the legally enforceable agreement between a designer and their client. It defines the business relationship between the two parties and details the project scope, pricing, deliverables, timelines, and other pre-agreed items relevant to the project.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mobile App Development</h3>
+                    <p>Our lives will be facilitated by a myriad of adaptive applications running on different devices, with different sensors, all of them collecting tidbits about everything. Your mobile device has quickly become the easiest portal into your digital self.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Software Development</h3>
+                    <p>Tech will transform from something we actively use to a more seamless integrated experience that is ‘on’ all the time.Our lives will be facilitated by a myriad of adaptive applications running on different devices, with different sensors.</p>
+                </div>
+            </div>
+            
+        </section>
+
+         <!------- Facilities -------->
+
+         <section class="facilitties">
+            <h1>Our Facilitties</h1>
+            <p>We provide all kind of facilitties which was students Need.</p>
+
+            <div class="row">
+                <div class="facilitties-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>We have a big Library with all kind of books and facilitties.</p>
+                </div>
+                <div class="facilitties-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>We have all type of playground and indoor and outdoor games.</p>
+                </div>
+                <div class="facilitties-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>A big cantin in our campus which provide Tasty and Healthy Food.</p>
+                </div>
+            </div>
+
+
+        </section>
+
+    
+        <!------ Footer ------>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>It is Biggest University with all kind of facilitties. It has 80% campus placement.<br> Less fee and good education. For more Information visite our University.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Denis Kotadiya</p>
+        </section>
+
+
+
+
+        <!---------JavaScript for Toggle Menu---------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
